@@ -1,9 +1,9 @@
 {
-  "name": "helioslauncher",
+  "name": "furtycraft",
   "version": "1.8.0",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "productName": "furtycraft",
+  "description": "Launcher de FurtyCraft",
+  "author": "Eldjar0 et Daniel Scalzi",
   "license": "UNLICENSED",
   "homepage": "https://github.com/dscalzi/HeliosLauncher",
   "bugs": {
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/Eldjar0/FurtyCraft-Launcher.git"
   }
 }
