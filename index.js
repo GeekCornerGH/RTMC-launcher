@@ -153,7 +153,7 @@ function createMenu() {
 
         // New edit menu adds support for text-editing keyboard shortcuts
         let editSubMenu = {
-            label: 'Edit',
+            label: '77777',
             submenu: [{
                 label: 'Undo',
                 accelerator: 'CmdOrCtrl+Z',

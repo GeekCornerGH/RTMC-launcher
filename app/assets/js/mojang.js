@@ -19,37 +19,44 @@ const statuses = [
     {
         service: 'sessionserver.mojang.com',
         status: 'grey',
-        name: 'Multiplayer Session Service',
+        name: 'Multijoueur ',
         essential: true
     },
     {
         service: 'authserver.mojang.com',
         status: 'grey',
-        name: 'Authentication Service',
+        name: "Authentification",
         essential: true
     },
     {
         service: 'textures.minecraft.net',
         status: 'grey',
-        name: 'Minecraft Skins',
+        name: 'Skins',
+        essential: true
+    },
+
+    {
+        service: 'FurtyCraft.com',
+        status: 'green',
+        name: 'Boutique',
         essential: false
     },
     {
-        service: 'api.mojang.com',
-        status: 'grey',
-        name: 'Public API',
+        service: 'Panel.FurtyCraft.com',
+        status: 'green',
+        name: 'Serveur(s)',
         essential: false
     },
     {
-        service: 'minecraft.net',
-        status: 'grey',
-        name: 'Minecraft.net',
+        service: 'Launcher.FurtyCraft.com',
+        status: 'green',
+        name: 'Launcher',
         essential: false
     },
     {
-        service: 'account.mojang.com',
-        status: 'grey',
-        name: 'Mojang Accounts Website',
+        service: 'skins.FurtyCraft.com',
+        status: 'off',
+        name: 'Skins',
         essential: false
     }
 ]
@@ -67,14 +74,16 @@ const statuses = [
 exports.statusToHex = function(status){
     switch(status.toLowerCase()){
         case 'green':
-            return '#a5c325'
+            return '#3ADF00'
         case 'yellow':
             return '#eac918'
         case 'red':
-            return '#c32625'
+            return '#DF0101'
         case 'grey':
+            case 'off':
+                return '#DF0101'
         default:
-            return '#848484'
+            return '#c32625'
     }
 }
 
