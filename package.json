@@ -36,7 +36,7 @@
     "jquery": "^3.5.1",
     "npm-upgrade": "^2.0.4",
     "request": "^2.88.2",
-    "semver": "^7.3.4",
+    "semver": "^7.3.5",
     "tar-fs": "^2.1.1",
     "winreg": "^1.2.4"
   },
